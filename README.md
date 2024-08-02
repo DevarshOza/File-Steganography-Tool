@@ -49,6 +49,13 @@ To install and use the File Steganography Tool, follow these steps:
 
 Follow the on-screen instructions to use the tool.
 
+Features:
+
+    Interactive Menu: The script presents a clear menu with options for hiding and unhiding files, allowing users to navigate through tasks easily.
+    File Selection: Users can select files from the current directory via a simple prompt-driven selection process. They can choose files to be used as cover or hidden files and specify output paths.
+    Hide File: The hide_file function lets users embed one file within another by concatenating them. The user selects a cover file (which will contain the hidden file) and the file to be hidden, then specifies an output file for the result.
+    Unhide File: The unhide_file function extracts a hidden file from a combined file. Users need to provide the combined file and the original cover file to determine the length of the cover file for accurate extraction. The hidden file is then saved to a user-defined location.
+    Error Handling: The script includes basic error handling to manage invalid inputs and operational issues, providing color-coded feedback for user convenience.
 
 Install Tool
     sudo apt-get install figlet lolcat
