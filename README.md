@@ -13,12 +13,49 @@ Requirements
     figlet (for large text display)
     lolcat (for colorized output; optional)
 
+## Installation
+
+To install and use the File Steganography Tool, follow these steps:
+
+1. **Install Dependencies**: Ensure you have `figlet` and `lolcat` installed on your system:
+
+    ```bash
+    sudo apt-get install figlet lolcat
+    ```
+
+2. **Clone the Repository**: Download the script from GitHub:
+
+    ```bash
+    git clone https://github.com/DevarshOza/File-Steganography-Tool.git
+    ```
+
+3. **Navigate to the Directory**: Change to the directory containing the script:
+
+    ```bash
+    cd File-Steganography-Tool
+    ```
+
+4. **Make the Script Executable**: Grant execute permissions to the script:
+
+    ```bash
+    chmod 777 filesteganography.sh
+    ```
+
+5. **Run the Script**: Start the tool:
+
+    ```bash
+    ./filesteganography.sh
+    ```
+
+Follow the on-screen instructions to use the tool.
+
+
 Install Tool
     sudo apt-get install figlet lolcat
     git clone https://github.com/DevarshOza/File-Steganography-Tool.git
     cd File-Steganography-Tool
     chmod 777 filesteganography.sh
-    ./filesteganography.sh
+    ./filesteganography.sh 
 
 
 Main Menu
