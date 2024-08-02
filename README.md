@@ -23,9 +23,6 @@ Notes
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contributing
-
 Feel free to submit issues or pull requests if you have suggestions or improvements!
 Contact
 
