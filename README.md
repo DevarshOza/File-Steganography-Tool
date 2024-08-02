@@ -13,6 +13,14 @@ Requirements
     figlet (for large text display)
     lolcat (for colorized output; optional)
 
+Install Tool
+    sudo apt-get install figlet lolcat
+    git clone https://github.com/DevarshOza/File-Steganography-Tool.git
+    cd File-Steganography-Tool
+    chmod 777 filesteganography.sh
+    ./filesteganography.sh
+
+
 Main Menu
 
 Upon starting, the script displays a menu with the following options:
